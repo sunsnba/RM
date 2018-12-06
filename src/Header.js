@@ -8,11 +8,13 @@ class Header extends Component {
     }
 
 
-render () {
+render (props) {
     return (
-        <div className="Rm-header">
-            this is the header 
-        </div>
+            <div className="HeadStyle">
+            {this.props.hData.map((el, index) => {
+                return <ul key={index}>{el}</ul>
+            }, this)}
+            </div>
     )
 }
 
