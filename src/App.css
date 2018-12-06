@@ -1,5 +1,7 @@
+body { margin: 0 }
 
-.Rm-header {
+
+.HeadStyle {
   height: 105px;
   border: solid;
   display: flex;
@@ -12,7 +14,7 @@
 
 .A {
   margin-top: 2%;
-  margin-left: 80px;
+  margin-left: 70px;
   width: 600px;
   height: 600px;
   border: dotted; 
@@ -23,17 +25,10 @@
 
 .B {
   margin-top: 2%;
-  margin-left: 770px;
+  margin-left: 760px;
   width: 600px;
   height: 600px;
   border: dotted; 
   background: #FFFFFF;
   position: absolute;
 }
-
-/* #boxContained {
-  display: inline;
-  justify-content: space-around;
-  flex-direction: row;
-  margin-top: 5%;
-} */
