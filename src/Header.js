@@ -9,14 +9,23 @@ class Header extends Component {
 
 
 render (props) {
-    return (
+
+    let shouldRenderHeader = this.props.isPositive
+
+    let headerContent = shouldRenderHeader ? (
+        <div className="HeadStyle" >
+        <input className="plus-button" type="button" value="+" onClick={this.props.headerClick} />
+        </div>
+    ) : (
         <div className="HeadStyle" >
             {this.props.hData.map((el, index) => {
                 return <ul key={index}>{el}</ul>
             }, this)}
-
-        <input className="add-button" type="button" value="-" />
+        <input className="minus-button" type="button" value="-" onClick={this.props.headerClick} />
             </div>
+    )
+    return (
+        <div> {headerContent} </div>
     )
 }
 

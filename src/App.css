@@ -33,9 +33,16 @@ body { margin: 0 }
   position: absolute;
 }
 
-.add-button {
+.plus-button {
   border: none;
   background: none;
   font-size: 15px;
-  
+  margin-left: 1125px;
+}
+
+.minus-button {
+  border: none;
+  background: none;
+  font-size: 15px;
+
 }
