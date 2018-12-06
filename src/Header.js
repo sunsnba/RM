@@ -10,10 +10,12 @@ class Header extends Component {
 
 render (props) {
     return (
-            <div className="HeadStyle">
+        <div className="HeadStyle" >
             {this.props.hData.map((el, index) => {
                 return <ul key={index}>{el}</ul>
             }, this)}
+
+        <input className="add-button" type="button" value="-" />
             </div>
     )
 }
