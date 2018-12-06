@@ -17,8 +17,10 @@ class App extends Component {
         <header className="App-header">
          <Header />
         </header>
+        <div id='boxContainer'>
         <PanelA />
         <PanelB />
+        </div>
       </div>
     );
   }
