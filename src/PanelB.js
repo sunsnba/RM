@@ -6,13 +6,18 @@ class PanelB extends Component {
     }
 
 render () {
-    return (
-        <div className="B">
-            
-        </div>
-    )
-}
 
+    let shouldRender = this.props.isPositive && this.props.bShow || this.props.bShow;
+
+    let panel2 = shouldRender ? (
+        <div className="C"> {this.props.contB} </div>
+    ) : (
+        <div className="B">  </div>
+    )
+    return (
+        <div > {panel2}  </div>
+    )
+    }
 }
 
 export default PanelB;

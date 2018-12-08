@@ -14,6 +14,7 @@ class App extends Component {
     contA: data.contentA,
     contB: data.contentB,
     isPositive: false,
+    bShow: true,
   }
   this.headerClick = this.headerClick.bind(this);    
   }
@@ -30,8 +31,8 @@ class App extends Component {
         <header className="App-header">
          <Header hData={this.state.hData} headerClick={this.headerClick} isPositive={this.state.isPositive}/>
         </header>
-        <PanelA />
-        <PanelB />
+        <PanelA contA={this.state.contA} bShow={this.state.bShow} isPositive={this.state.isPositive}/>
+        <PanelB contB={this.state.contB} bShow={this.state.bShow} isPositive={this.state.isPositive}/>
       </div>
     );
   }
