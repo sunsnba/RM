@@ -12,7 +12,7 @@ render () {
     let panel1 = shouldRender ? (
         <div className="D">  </div>
     ) : (
-        <div className="A"> {this.props.contA} </div>
+        <button className="A"> {this.props.contA} </button>
     )
     return (
         <div> {panel1} </div>
