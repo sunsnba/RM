@@ -15,10 +15,10 @@ body { margin: 0 }
 .A {
   margin-top: 2%;
   margin-left: 70px;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   border: dotted; 
-  background: #EEEEEE;
+  background: #FFFFFF;
   position: absolute;
 
 }
@@ -26,10 +26,10 @@ body { margin: 0 }
 .B {
   margin-top: 2%;
   margin-left: 760px;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   border: dotted; 
-  background: #FFFFFF;
+  background: #EEEEEE;
   position: absolute;
 }
 
@@ -45,4 +45,24 @@ body { margin: 0 }
   background: none;
   font-size: 15px;
 
+}
+
+.C {
+  margin-top: 2%;
+  margin-left: 760px;
+  width: 500px;
+  height: 500px;
+  border: dotted; 
+  background:  #FFFFFF;
+  position: absolute;
+}
+
+.D {
+  margin-top: 2%;
+  margin-left: 70px;
+  width: 500px;
+  height: 500px;
+  border: dotted; 
+  background: #EEEEEE;
+  position: absolute;
 }

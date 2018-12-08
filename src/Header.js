@@ -10,9 +10,7 @@ class Header extends Component {
 
 render (props) {
 
-    let shouldRenderHeader = this.props.isPositive
-
-    let headerContent = shouldRenderHeader ? (
+    let headerContent = this.props.isPositive ? (
         <div className="HeadStyle" >
         <input className="plus-button" type="button" value="+" onClick={this.props.headerClick} />
         </div>
