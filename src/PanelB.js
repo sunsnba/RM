@@ -15,7 +15,7 @@ render () {
         <button className="B" onClick={this.props.togglePanels}> </button>  
     )
     return (
-        <div > {panel2}  </div>
+        <div> {panel2} </div>
     )
     }
 }
