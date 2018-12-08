@@ -14,14 +14,21 @@ class App extends Component {
     contA: data.contentA,
     contB: data.contentB,
     isPositive: false,
-    bShow: true,
+    bShow: false,
   }
-  this.headerClick = this.headerClick.bind(this);    
+  this.headerClick = this.headerClick.bind(this);   
+  this.togglePanels = this.togglePanels.bind(this); 
   }
 
   headerClick = () => {
     this.setState(prevState => ({
       isPositive: !prevState.isPositive,
+    }));
+  }
+
+  togglePanels = () => {
+    this.setState(prevState => ({
+      bShow: !prevState.bShow,
     }));
   }
 
@@ -32,7 +39,7 @@ class App extends Component {
          <Header hData={this.state.hData} headerClick={this.headerClick} isPositive={this.state.isPositive}/>
         </header>
         <PanelA contA={this.state.contA} bShow={this.state.bShow} isPositive={this.state.isPositive}/>
-        <PanelB contB={this.state.contB} bShow={this.state.bShow} isPositive={this.state.isPositive}/>
+        <PanelB contB={this.state.contB} bShow={this.state.bShow} isPositive={this.state.isPositive} togglePanels={this.togglePanels}/>
       </div>
     );
   }

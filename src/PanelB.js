@@ -10,9 +10,9 @@ render () {
     let shouldRender = this.props.isPositive && this.props.bShow || this.props.bShow;
 
     let panel2 = shouldRender ? (
-        <div className="C"> {this.props.contB} </div>
+        <button className="C" onClick={this.props.togglePanels}> {this.props.contB} </button>
     ) : (
-        <div className="B">  </div>
+        <button className="B" onClick={this.props.togglePanels}> </button>  
     )
     return (
         <div > {panel2}  </div>
