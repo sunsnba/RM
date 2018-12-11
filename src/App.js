@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './Header';
-import PanelA from './PanelA';
-import PanelB from './PanelB';
+import './styles/styles.css';
+import Header from './components/Header';
+import PanelA from './components/PanelA';
+import PanelB from './components/PanelB';
 import data from './data.json';
 
 class App extends Component {
@@ -39,7 +39,9 @@ class App extends Component {
          <Header hData={this.state.hData} headerClick={this.headerClick} isPositive={this.state.isPositive}/>
         </header>
         <PanelA contA={this.state.contA} bShow={this.state.bShow} isPositive={this.state.isPositive}/>
-        <PanelB contB={this.state.contB} bShow={this.state.bShow} isPositive={this.state.isPositive} togglePanels={this.togglePanels}/>
+        <PanelB contB={this.state.contB} bShow={this.state.bShow} isPositive={this.state.isPositive} 
+        togglePanels={this.togglePanels}
+        />
       </div>
     );
   }
