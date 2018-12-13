@@ -3,7 +3,9 @@ import './styles/styles.css';
 import Header from './components/Header';
 import PanelA from './components/PanelA';
 import PanelB from './components/PanelB';
-import data from './data.json';
+import JSONString from './JSONString';
+
+let data = JSON.parse(JSONString);
 
 class App extends Component {
   constructor(props) {

@@ -7,7 +7,6 @@ class Header extends Component {
 
     }
 
-
 render (props) {
 
     let headerContent = this.props.isPositive ? (
