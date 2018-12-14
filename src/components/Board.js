@@ -5,7 +5,7 @@ import JSONString from '../JSONString';
 import PanelA from './PanelA';
 import PanelB from './PanelB';
 
-
+   // takes in the JSON string, parses it. Consider putting this in componentDidMount...
 let data = JSON.parse(JSONString);
 
 class Board extends Component {
@@ -34,6 +34,7 @@ class Board extends Component {
       bShow: !prevState.bShow,
     }));
   }
+
 
 render (props) {
     return (
