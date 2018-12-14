@@ -1,5 +1,8 @@
 body { margin: 0 }
 
+.boards-container{
+  margin: 2%;
+}
 
 .HeadStyle {
   border-bottom: solid;

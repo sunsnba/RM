@@ -3,19 +3,23 @@ import Board from './components/Board';
 
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-
-  }
-
 
   render() {
+
+    const numberOfBoardContainers = [1, 2, 3];
+    const threeBoards = numberOfBoardContainers.map((ele, ind) => {
+      return <div className="boards-container" key={'wrapBoardContainer' + ind}>
+        <Board id={ind}
+       key={'BoardContainer' + ind} />
+       </div>
+    });
+
     return (
-      <div className="App">
-        <Board />
+      <div >
+        {threeBoards}
       </div>
     );
-  }
-}
+  };
+};
 
 export default App;
