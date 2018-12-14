@@ -19,25 +19,29 @@ body { margin: 0 }
 
 
 .A {
-  margin-top: 2%;
-  margin-left: 70px;
-  width: 600px;
-  height: 600px;
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 350px;
+  height: 270px;
+  margin-top: 1.1%;
+  margin-bottom: 2%;
   border: dotted; 
   background: #FFFFFF;
-  position: absolute;
   font-size: 17px;
 
 }
 
 .B {
-  margin-top: 2%;
-  margin-left: 760px;
-  width: 600px;
-  height: 600px;
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 350px;
+  height: 270px;
+  margin-top: 1.1%;
+  margin-bottom: 2%;
   border: dotted; 
   background: #EEEEEE;
-  position: absolute;
 }
 
 .plus-button {
@@ -45,7 +49,8 @@ body { margin: 0 }
   background: none;
   font-size: 15px;
   margin-left: 663px;
-  margin-top: 16px;
+  margin-top: 4px;
+  height: 46px;
 }
 
 .minus-button {
@@ -56,28 +61,41 @@ body { margin: 0 }
 }
 
 .C {
-  margin-top: 2%;
-  margin-left: 760px;
-  width: 600px;
-  height: 600px;
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 350px;
+  height: 270px;
+  margin-top: 1.1%;
+  margin-bottom: 2%;
   border: dotted; 
   background:  #FFFFFF;
-  position: absolute;
   font-size: 17px;
 }
 
 .D {
-  margin-top: 2%;
-  margin-left: 70px;
-  width: 600px;
-  height: 600px;
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 350px;
+  height: 270px;
+  margin-top: 1.1%;
+  margin-bottom: 2%;
   border: dotted; 
   background: #EEEEEE;
-  position: absolute;
 }
 
 .board {
   border: solid;
   max-width:850px;
   height: 400px;
+}
+
+.PanelContainer {
+  display: flex;
+  border: none;
+  max-width: 800px;
+  height: 310px;
+  justify-content: space-around;
+  align-items: center;
 }
