@@ -15,10 +15,16 @@ npm start
 
 Go to http://localhost:3000/ 
 
+For testing 
+
+npm test
+
 # JSON string provided
 
 The JSON string that was provided was not a JSON string. It was a JSON object, but was missing a comma after the 'contentA' value. I added the comma and converted the JOSN object into a JSON string and placed it in another file called JSONString.js I then parsed it in Board.js
 
+Testing => Jest
+Using jest I was able to implement snapshot testing to ensure proper functionality of our main component. 
 
 # Multiple Rendering of the component in #1
 

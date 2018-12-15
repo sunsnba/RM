@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div>
+  <div
+    className="boards-container"
+  >
+    <div
+      className="board"
+    >
+      <div>
+         
+        <div
+          className="HeadStyle"
+        >
+          <div
+            className="HeadContent"
+          >
+            <ul>
+              30%
+            </ul>
+            <ul>
+              $2000000
+            </ul>
+            <ul>
+              85%
+            </ul>
+            <input
+              className="minus-button"
+              onClick={[Function]}
+              type="button"
+              value="-"
+            />
+          </div>
+        </div>
+         
+      </div>
+      <div
+        className="PanelContainer"
+      >
+        <div>
+           
+          <button
+            className="A"
+          >
+             
+            This should be displayed in Panel A. This is visible by default
+             
+          </button>
+           
+        </div>
+        <div>
+           
+          <button
+            className="B"
+            onClick={[Function]}
+          >
+             
+          </button>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="boards-container"
+  >
+    <div
+      className="board"
+    >
+      <div>
+         
+        <div
+          className="HeadStyle"
+        >
+          <div
+            className="HeadContent"
+          >
+            <ul>
+              30%
+            </ul>
+            <ul>
+              $2000000
+            </ul>
+            <ul>
+              85%
+            </ul>
+            <input
+              className="minus-button"
+              onClick={[Function]}
+              type="button"
+              value="-"
+            />
+          </div>
+        </div>
+         
+      </div>
+      <div
+        className="PanelContainer"
+      >
+        <div>
+           
+          <button
+            className="A"
+          >
+             
+            This should be displayed in Panel A. This is visible by default
+             
+          </button>
+           
+        </div>
+        <div>
+           
+          <button
+            className="B"
+            onClick={[Function]}
+          >
+             
+          </button>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="boards-container"
+  >
+    <div
+      className="board"
+    >
+      <div>
+         
+        <div
+          className="HeadStyle"
+        >
+          <div
+            className="HeadContent"
+          >
+            <ul>
+              30%
+            </ul>
+            <ul>
+              $2000000
+            </ul>
+            <ul>
+              85%
+            </ul>
+            <input
+              className="minus-button"
+              onClick={[Function]}
+              type="button"
+              value="-"
+            />
+          </div>
+        </div>
+         
+      </div>
+      <div
+        className="PanelContainer"
+      >
+        <div>
+           
+          <button
+            className="A"
+          >
+             
+            This should be displayed in Panel A. This is visible by default
+             
+          </button>
+           
+        </div>
+        <div>
+           
+          <button
+            className="B"
+            onClick={[Function]}
+          >
+             
+          </button>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
