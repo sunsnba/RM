@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from'react-dom';
 import App from '../App'
 import renderer from 'react-test-renderer';
 
@@ -10,3 +9,4 @@ it('renders a snapshot', () => {
   expect(tree).toMatchSnapshot();
 });
 
+// note it was necessary to manually install babel-core@7.0.0-bridge.0 for jest tests to properly run

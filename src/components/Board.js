@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import '../styles/styles.css'
-import Header from './Header';
+import '../styles/styles.css';
+// importing files and JSON data
 import JSONString from '../JSONString';
+import Header from './Header';
 import PanelA from './PanelA';
 import PanelB from './PanelB';
 
@@ -22,13 +23,14 @@ class Board extends Component {
       this.headerClick = this.headerClick.bind(this);
       this.togglePanels = this.togglePanels.bind(this); 
   }
-
+    // hide/shows header data based on clicking '-' or '+' button
   headerClick = () => {
     this.setState(prevState => ({
       isPositive: !prevState.isPositive,
     }));
   }
-
+  // toggles panel data based on clicking panel b. Will change background color and hide/show the data.
+  // does this by checking if bShow in our board state is true.
   togglePanels = () => {
     this.setState(prevState => ({
       bShow: !prevState.bShow,
